@@ -28,7 +28,7 @@ puts "何名でご予約されますか？"
 while true
   print "予約人数を入力 >"
   number_of_guests = gets.to_i
-break if  number_of_guests.integer? && number_of_guests >= 1
+break if  number_of_guests >= 1
   puts "ご利用人数を1以上の半角数字で入力して下さい"
 end
 
